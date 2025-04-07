@@ -1,4 +1,5 @@
-Image Caption Generator
+**Image Caption Generator**
+
 This project is an end-to-end deep learning system that takes an image as input and generates a meaningful caption describing the contents of the image. It leverages MobileNetV2 for efficient feature extraction and an LSTM-based language model with attention to form coherent, human-like sentences.
 
 The model has been trained on the Flickr8k dataset, which consists of over 8,000 images, each paired with five different captions. The goal is to teach the model to understand visual content and express it in natural language.
