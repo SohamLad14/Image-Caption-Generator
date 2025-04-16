@@ -1,37 +1,44 @@
 **Image Caption Generator**
 
-This project is an end-to-end deep learning system that takes an image as input and generates a meaningful caption describing the contents of the image. It leverages MobileNetV2 for efficient feature extraction and an LSTM-based language model with attention to form coherent, human-like sentences.
+This project combines computer vision and natural language processing to build an image captioning system. It uses MobileNetV2 as the feature extractor and a custom LSTM + Attention model to generate captions.
 
-The model has been trained on the Flickr8k dataset, which consists of over 8,000 images, each paired with five different captions. The goal is to teach the model to understand visual content and express it in natural language.
+Trained on the Flickr8k dataset, which contains 8,000+ images with multiple captions each, the model learns to understand visual content and describe it in natural language.
 
-🚀 Key Features
-📸 Image Understanding via pretrained CNN (MobileNetV2)
+**Key Features**
+Image understanding using pretrained CNN (MobileNetV2)
 
-📝 Caption Generation using LSTM + Attention Mechanism
+Caption generation using LSTM with Attention
 
-📊 Trained on the Flickr8k dataset
+Trained on the Flickr8k dataset
 
-🌐 Streamlit Web App for real-time caption generation
+Streamlit web app for real-time caption generation
 
-🧠 Lightweight and memory-efficient for smooth deployment
+Lightweight and efficient – optimized for deployment
 
-🛠️ Easily extendable to other datasets like Flickr30k or MS COCO
+Easy to extend to datasets like Flickr30k or MS COCO
 
 
-🛠️ Tech Stack
-Python 3.10
 
-TensorFlow / Keras
 
-NumPy / Pandas
 
-Streamlit
+🛠️ **Tech Stack**
 
-OpenCV
+![Python 3.10](https://img.shields.io/badge/Python-3.10-blue)
+![TensorFlow / Keras](https://img.shields.io/badge/TensorFlow-Keras-orange)
+![NumPy](https://img.shields.io/badge/NumPy-1.21.2-green)
+![Pandas](https://img.shields.io/badge/Pandas-1.3.3-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.2.0-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.5.2-blue)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-red)
 
-Matplotlib (for visualization)
+- **Python 3.10**
+- **TensorFlow / Keras**
+- **NumPy / Pandas**
+- **Streamlit**
+- **OpenCV**
+- **Matplotlib (for visualization)**
 
-🌐 Live Demo
+**Live Demo**
 You can try out the deployed app here: https://imgcaptiongen.streamlit.app/
 Note: If the website link provided above is not working, it might mean that the deployment has been stopped or there are technical issues. We apologize for any inconvenience.
 
