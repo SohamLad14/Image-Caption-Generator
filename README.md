@@ -5,21 +5,12 @@ This project combines computer vision and natural language processing to build a
 Trained on the Flickr8k dataset, which contains 8,000+ images with multiple captions each, the model learns to understand visual content and describe it in natural language.
 
 **Key Features**
-Image understanding using pretrained CNN (MobileNetV2)
-
-Caption generation using LSTM with Attention
-
-Trained on the Flickr8k dataset
-
-Streamlit web app for real-time caption generation
-
-Lightweight and efficient – optimized for deployment
-
-Easy to extend to datasets like Flickr30k or MS COCO
-
-
-
-
+-Image understanding using pretrained CNN (MobileNetV2)
+-Caption generation using LSTM with Attention
+-Trained on the Flickr8k dataset
+-Streamlit web app for real-time caption generation
+-Lightweight and efficient – optimized for deployment
+-Easy to extend to datasets like Flickr30k or MS COCO
 
 🛠️ **Tech Stack**
 
@@ -31,12 +22,7 @@ Easy to extend to datasets like Flickr30k or MS COCO
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5.2-blue)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-red)
 
-- **Python 3.10**
-- **TensorFlow / Keras**
-- **NumPy / Pandas**
-- **Streamlit**
-- **OpenCV**
-- **Matplotlib (for visualization)**
+
 
 **Live Demo**
 You can try out the deployed app here: https://imgcaptiongen.streamlit.app/
